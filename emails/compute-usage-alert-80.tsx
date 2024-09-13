@@ -17,9 +17,7 @@ import {
 } from "@react-email/components";
 import * as React from "react";
 
-const baseUrl = process.env.VERCEL_URL
-	? `https://${process.env.VERCEL_URL}`
-	: "";
+// Consider saying "View Plans" instead of "Upgrade" since this is 80% and we want to sound not desperate
 
 export const ComputeUsageAlert80Email = () => (
 	<Html>
