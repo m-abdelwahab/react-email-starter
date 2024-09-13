@@ -1,0 +1,9 @@
+# Bun
+bun.lockb
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
